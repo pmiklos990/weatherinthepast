@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/css/map.css';
+import  '../src/css/weather-icons.css';
+
 
 ReactDOM.render(
   <React.StrictMode>

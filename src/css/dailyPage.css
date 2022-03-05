@@ -1,0 +1,89 @@
+.buttons {
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    border-radius: 8px;
+    border: gray;
+    background-color: #E8562A;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .buttons:hover {background-color: #3e8e41}
+
+.buttons:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+  .buttonLeft {
+    margin-right: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    border: gray;
+    background-color: #E8562A;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .buttonLeft:hover {background-color: #3e8e41}
+
+.buttonLeft:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+  .buttonRight {
+    margin-left: 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    border: gray;
+    background-color: #E8562A;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .buttonRight:hover {background-color: #3e8e41}
+
+.buttonRight:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  .datumForm {
+    display: inline-block;
+  }
+
+  .titel {
+    font-size: x-large;
+    color: white;
+    margin: 8px;
+    animation-name: example;
+    animation-duration: 1s;
+
+  }
+
+  @keyframes example {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.2;}
+    50%  {opacity: 0.4}
+    75%  {opacity: 0.6;}
+    100% {opacity: 0.8;}
+  }
+
+  .textInput {
+    border-radius: 8px;
+    width: 110px;
+    
+
+  }
+
+  .simpleText{
+    color: white;
+    margin: 8px;
+  }

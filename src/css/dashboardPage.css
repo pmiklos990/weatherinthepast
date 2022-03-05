@@ -1,0 +1,31 @@
+.welcomeText {
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 8px;
+    word-wrap: break-word;
+    font-size: calc(10px + 2vmin);
+    margin: 2px auto;
+    max-width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.littleText {
+    margin-top: 1em;
+    font-size: small;
+    font-weight: bold;
+}
+
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (min-width: 601px) {
+    .welcomeText {
+      font-size: 24px;
+      
+      
+    }
+    .littleText {
+        margin-top: 2em;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+  }

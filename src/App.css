@@ -1,5 +1,10 @@
+
+
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+
 }
 
 .App-logo {
@@ -36,3 +41,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.stock-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
+
+.MonthlyTable {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color:darkred;
+  background-color: darkturquoise;
+  opacity: 0.7;
+  padding: 5px;
+}
+
+.MonthlyCell {
+  padding: 10px;
+  border-bottom: 1px solid green;
+
+}
+
+.HungaryMap {
+  
+  
+  
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid green;
+  
+
+
+
+}
+
+

@@ -1,0 +1,171 @@
+.Map {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    color: darkred;
+    font-weight: bold;
+ 
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 1px) {
+    .Map{
+      font-size: 10px;
+      color: darkred;
+    }
+  }
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 301px) {
+    .Map{
+      font-size: 12px;
+      color: darkred;
+    }
+  }
+
+    /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 401px) {
+      .Map{
+        font-size: 14px;
+        color: darkred;
+      }
+    }
+
+  
+
+   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+   @media screen and (min-width: 501px) {
+    .Map {
+      font-size: 16px;
+      color: darkred;
+    }
+  }
+
+   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+   @media screen and (min-width: 601px) {
+    .Map {
+      font-size: 18px;
+      color: darkred;
+    }
+  }
+
+   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+   @media screen and (min-width: 701px) {
+    .Map {
+      font-size: 20px;
+      color: darkred;
+    }
+  }
+     /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+     @media screen and (min-width: 801px) {
+      .Map {
+        font-size: 22px;
+        color: darkred;
+      }
+    }
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (min-width: 900px) {
+    .Map {
+      font-size: 24px;
+      color: darkred;
+    }
+  }
+
+
+
+.responsiveMapImage {
+    width: 90%;
+    height: auto;
+    opacity: 0.7;
+    
+  }
+
+  .Budapest {
+    position: absolute;
+    top: 33%;
+    left: 37%;
+    animation-name: example;
+    animation-duration: 1s;
+    
+ 
+}
+
+
+@keyframes example {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.2;}
+  50%  {opacity: 0.4}
+  75%  {opacity: 0.6;}
+  100% {opacity: 0.8;}
+}
+
+
+.Szeged {
+    position: absolute;
+    bottom: 24%;
+    left: 53%;
+    animation-name: example2;
+    animation-duration: 1s;
+
+ 
+}
+@keyframes example2 {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.2;}
+  50%  {opacity: 0.4}
+  75%  {opacity: 0.6;}
+  100% {opacity: 0.8;}
+}
+
+.Debrecen {
+    position: absolute;
+    bottom: 55%;
+    left: 63%;
+    animation-name: example3;
+    animation-duration: 0.5s;
+
+ 
+}
+@keyframes example3 {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.2;}
+  50%  {opacity: 0.4}
+  75%  {opacity: 0.6;}
+  100% {opacity: 0.8;}
+}
+
+
+.Szombathely {
+    position: absolute;
+    top: 42%;
+    left: 12%;
+    animation-name: example4;
+    animation-duration: 1s;
+
+ 
+}
+@keyframes example4 {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.2;}
+  50%  {opacity: 0.4}
+  75%  {opacity: 0.6;}
+  100% {opacity: 0.8;}
+}
+
+
+.Pecs {
+    position: absolute;
+    bottom: 13%;
+    left: 21%;
+    animation-name: example5;
+    animation-duration: 1s;
+
+ 
+}
+@keyframes example5 {
+  0%   {opacity: 0;}
+  25%  {opacity: 0.2;}
+  50%  {opacity: 0.4}
+  75%  {opacity: 0.6;}
+  100% {opacity: 0.8;}
+}

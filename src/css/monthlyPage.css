@@ -1,0 +1,55 @@
+.mButtons {
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    border-radius: 8px;
+    border: gray;
+    background-color: #E8562A;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 6px;
+  }
+
+  .mButtons:hover {background-color: #3e8e41}
+
+  .mButtons:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+p {
+    color: white;
+}
+
+.mSelect {
+
+    padding:6px;
+    border-radius:10px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.mInput {
+
+    padding:4px;
+    border-radius:10px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font: inherit;
+    cursor: pointer;
+    font-weight: bold;
+    color: darkblue;
+    
+}
+
+.monthlyTitel {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    color: white;
+}
